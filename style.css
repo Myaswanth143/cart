@@ -1,0 +1,31 @@
+.header {
+  display: grid;
+  grid-template-columns: 5fr 1fr;
+  background-color: red;
+}
+h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.cards {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+  border-right: 1px solid black;
+  /* border: solid 1px black; */
+}
+.main {
+  display: grid;
+  grid-template-columns: 6fr 3fr;
+  margin: 20px;
+  /* align-items: center;
+  justify-content: center;
+  border: solid 1px black; */
+}
+.inline-p {
+  display: inline;
+}
